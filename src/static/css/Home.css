@@ -1,4 +1,8 @@
 .Home {
+  text-align: center;
+}
+
+.Home-top {
   background: linear-gradient(#2e9afe, #58fad0);
   height: 100vh;
   display: flex;
@@ -6,4 +10,32 @@
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.Home-form {
+  color: #2e9afe;
+  padding: 20px;
+}
+
+.Home-title {
+  padding-bottom: 20px;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.Home-text-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Home-about {
+  text-align: left;
+}
+
+.text-lighter {
+  font-weight: lighter;
+}
+
+.text-bolder {
+  font-weight: bolder;
 }
