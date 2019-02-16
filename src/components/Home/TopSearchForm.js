@@ -4,13 +4,14 @@ import '../../static/css/Home.css';
 /**
  * ホーム画面 - 検索フォーム
  */
-class SearchForm extends React.Component {
+class TopSearchForm extends React.Component {
   render() {
     return (
-      <div className="Home">
+      <div>
+        <h1>あなたが使えるWi-Fiが見つかる</h1>
       </div>
     );
   }
 }
 
-export default SearchForm;
+export default TopSearchForm;

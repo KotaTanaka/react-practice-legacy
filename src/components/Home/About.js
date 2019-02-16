@@ -7,7 +7,8 @@ import '../../static/css/Home.css';
 class About extends React.Component {
   render() {
     return (
-      <div className="Home">
+      <div className="About">
+        Find Wi-Fi とは
       </div>
     );
   }
