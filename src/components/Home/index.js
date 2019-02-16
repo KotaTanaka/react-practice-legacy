@@ -4,7 +4,7 @@ import '../../static/css/Home.css';
 // Components
 import Header from '../Header';
 import Footer from '../Footer';
-import SearchForm from './SearchForm';
+import TopSearchForm from './TopSearchForm';
 import About from './About';
 
 /**
@@ -17,7 +17,7 @@ class Home extends React.Component {
         <Header />
 
         {/* 検索フォーム */}
-        <SearchForm />
+        <TopSearchForm />
         
         {/* サービス説明 */}
         <About />
