@@ -8,8 +8,8 @@ import '../static/css/App.css';
 class Header extends React.Component {
   render() {
     return (
-      <div className="App">
-        <Link to="/">Home</Link>
+      <div className="App-header">
+        <Link to="/">(ロゴ画像)</Link>
       </div>
     );
   }

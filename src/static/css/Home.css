@@ -1,3 +1,9 @@
 .Home {
-  text-align: center;
+  background: linear-gradient(#2e9afe, #58fad0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }

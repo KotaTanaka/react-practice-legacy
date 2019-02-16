@@ -7,7 +7,8 @@ import '../static/css/App.css';
 class Footer extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="App-footer">
+        footer.
       </div>
     );
   }

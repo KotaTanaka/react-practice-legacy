@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../static/css/App.css';
 import '../../static/css/Home.css';
 
 // Components
@@ -13,14 +14,16 @@ import About from './About';
 class Home extends React.Component {
   render() {
     return (
-      <div className="Home">
+      <div className="App">
         <Header />
 
-        {/* 検索フォーム */}
-        <TopSearchForm />
-        
-        {/* サービス説明 */}
-        <About />
+        <div className="Home">
+          {/* 検索フォーム */}
+          <TopSearchForm />
+          
+          {/* サービス説明 */}
+          <About />
+        </div>
         
         <Footer />
       </div>
