@@ -1,23 +1,38 @@
 .Home {
   text-align: center;
+  height: 250vh;
+  transform: skewY(10deg);
+  transform-origin: top right;
 }
 
 .Home-top {
-  background: linear-gradient(#2e9afe, #58fad0);
-  height: 100vh;
+  background: linear-gradient(#2e9afe, #58fad0 80%);
+  height: 150vh;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
 }
 
-.Home-form {
+/* FIXME ヘッダーをヘッダーの位置に配置 */
+.Home-header {
+  height: 50px;
+  color: white;
+  padding-left: 5%;
+  transform: skewY(-10deg);
+}
+
+.Home-top-content {
+  transform: skewY(-10deg);
+}
+
+.Home-top-form {
   color: #2e9afe;
   padding: 20px;
 }
 
-.Home-title {
+.Home-top-title {
   padding-bottom: 20px;
   font-weight: lighter;
   font-size: 30px;
@@ -30,6 +45,8 @@
 
 .Home-about {
   text-align: left;
+  margin-left: 20vh;
+  transform: skewY(-10deg);
 }
 
 .text-lighter {
