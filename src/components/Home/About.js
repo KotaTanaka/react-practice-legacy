@@ -1,4 +1,6 @@
 import React from 'react';
+
+// Style
 import '../../static/css/Home.css';
 
 /**
@@ -8,7 +10,8 @@ class About extends React.Component {
   render() {
     return (
       <div className="Home-about">
-        Find Wi-Fi とは
+        <h1>身近なWi-Fiを見つける</h1>
+        <p>全国のWi-Fiから近くのWi-Fiまでマップ上で一覧を見ることができます。</p>
       </div>
     );
   }

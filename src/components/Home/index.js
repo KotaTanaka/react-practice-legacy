@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+// Style
 import '../../static/css/App.css';
 import '../../static/css/Home.css';
 
 // Components
+import Footer from '../Footer';
 import TopSearchForm from './TopSearchForm';
 import About from './About';
 
@@ -14,11 +16,6 @@ class Home extends React.Component {
   render() {
     return (
       <div className="App">
-        {/* ヘッダー部 */}
-        <div className="App-header">
-          <Link to="/"><h1>(Logo)</h1></Link>
-        </div>
-
         <div className="Home">
           {/* 検索フォーム */}
           <TopSearchForm />
@@ -26,6 +23,8 @@ class Home extends React.Component {
           {/* サービス説明 */}
           <About />
         </div>
+
+        <Footer />
       </div>
     );
   }
