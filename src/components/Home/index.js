@@ -1,10 +1,12 @@
 import React from 'react';
+//import { Link } from 'react-router-dom';
 
 // Style
 import '../../static/css/App.css';
 import '../../static/css/Home.css';
 
 // Components
+import Header from '../Header';
 import Footer from '../Footer';
 import TopSearchForm from './TopSearchForm';
 import About from './About';
@@ -16,6 +18,8 @@ class Home extends React.Component {
   render() {
     return (
       <div className="App">
+        <Header />
+        
         <div className="Home">
           {/* 検索フォーム */}
           <TopSearchForm />
