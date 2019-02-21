@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Style
 import Card from '@material-ui/core/Card';
@@ -16,10 +15,6 @@ class TopSearchForm extends React.Component {
   render() {
     return (
       <div className="Home-top">
-        <div className="Home-header">
-          <Link to="/"><h1>(Logo)</h1></Link>
-        </div>
-
         <div className="Home-top-content">
           <h1 className="Home-top-title">
             あなたが使える<nobr className="text-bolder">Wi-Fi</nobr>が見つかる

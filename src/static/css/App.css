@@ -18,14 +18,31 @@
 
 .App-footer {
   background-color: #2e9afe;
-  height: 150px;
+  height: 25vh;
+  padding: 5vh;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   color: white;
+  box-shadow: -2px 0 10px gray;
+}
+
+.App-footer-title {
+  margin-left: 5vh;
+  font-size: 120%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.margin-end {
+  margin-inline-end: 20px;
 }
 
 @keyframes App-logo-spin {
