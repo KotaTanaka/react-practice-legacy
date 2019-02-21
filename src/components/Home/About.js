@@ -10,8 +10,11 @@ class About extends React.Component {
   render() {
     return (
       <div className="Home-about">
-        <h1>身近なWi-Fiを見つける</h1>
-        <p>全国のWi-Fiから近くのWi-Fiまでマップ上で一覧を見ることができます。</p>
+        <div className="Home-about-text">
+          <h1>身近なWi-Fiを見つける</h1>
+          全国のWi-Fiから近くのWi-Fiまで<br />
+          マップ上で一覧を見ることができます
+        </div>
       </div>
     );
   }
