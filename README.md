@@ -8,15 +8,10 @@ Wi-Fiスポット検索サービスのフロントエンドのリポジトリで
 $ git clone git@github.com:KotaTanaka/wifi-map-front.git
 ```
 
-#### Homebrew のインストール
-
-```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
 #### Node のインストール
 
 ```
+$ brew update
 $ brew install node
 ```
 
@@ -33,4 +28,4 @@ $ npm i
 $ npm start
 ```
 
-→ http://localhost:3000 (デフォルト)でアプリケーションにアクセスできます。
+→ http://localhost:3000 でアプリケーションにアクセスできます(競合していれば3001)。
