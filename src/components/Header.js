@@ -15,7 +15,7 @@ class Header extends React.Component {
     return (
       <AppBar
         position='static'
-        classes={{ colorPrimary: this.props.classes.appBarColorDefault }}>
+        classes={{ colorPrimary: this.props.classes.appBar }}>
         <Toolbar>
           <Typography
             variant="h4"

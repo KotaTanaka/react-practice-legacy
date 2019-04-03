@@ -1,7 +1,7 @@
 export const commonStyle = {
-  appBarColorDefault: {
+  appBar: {
     background: 'linear-gradient(45deg, #2e9afe 30%, #0040ff 90%)',
-    color: 'white',
     position: 'fixed',
+    opacity: 0.5
   }
 };

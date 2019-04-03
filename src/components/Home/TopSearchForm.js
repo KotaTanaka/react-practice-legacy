@@ -16,9 +16,9 @@ class TopSearchForm extends React.Component {
     return (
       <div className="Home-top">
         <div className="Home-top-content">
-          <h1 className="Home-top-title">
-            あなたが使える<nobr className="text-bolder">Wi-Fi</nobr>が見つかる
-          </h1>
+          <div className="Home-top-title">
+            <h1 className="text-lighter">あなたが使える<nobr className="text-bolder">Wi-Fi</nobr>が見つかる</h1>
+          </div>
 
           <Card>
             <div className="Home-top-form">
